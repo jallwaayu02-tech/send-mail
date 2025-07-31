@@ -33,7 +33,7 @@ app.post('/send-email', async (req, res) => {
 
     const mailOptions = {
         from: email,
-        to: 'info@jmdtechnocrats.com',            // Where you want to receive contact messages
+        to: 'ops@jallwaayu.com.au',            // Where you want to receive contact messages
         subject: `Contact Form Message from ${subject}`,
         text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`
     };
