@@ -10,6 +10,8 @@ const corsOptions = {
 };
 // Enable CORS for all origins (for local testing)
 app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://jallwaayu.com.au' }));
+
 app.use(express.json());
 
 app.get("/health",(req,res)=>{
